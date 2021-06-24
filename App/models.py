@@ -22,7 +22,7 @@ class Inventory(models.Model):
 
 class Product(models.Model):
 
-      name = models.CharField(max_length=255, null=True)
+      product = models.CharField(max_length=255, null=True)
       uom = models.CharField(max_length=255, null=True)
       barcode = models.IntegerField()
 

@@ -136,4 +136,3 @@ STATIC_URL = '/static/'
 # ]
 
 CORS_ALLOW_ALL_ORIGINS=True
-CSRF_COOKIE_SECURE = False
